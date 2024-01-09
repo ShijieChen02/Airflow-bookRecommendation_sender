@@ -17,8 +17,9 @@ This airflow dag will programmatically fetch the latest list of Combined Print &
 
 
 ## 5. you could add your new appened receivers after 'trigger' the dag in 'configuration json'.
-format:  {"email": ["example1@domain.com","example1@domain.com"]}
-![image](https://github.com/ShijieChen02/Airflow-bookRecommendation_sender/assets/147095965/d4c169b2-c2a3-4c3e-a17f-c136f0ef02a3)
+format:  {"email": ["example1@domain.com","example2@domain.com"]}
+![image](https://github.com/ShijieChen02/Airflow-bookRecommendation_sender/assets/147095965/badeee6f-f909-42fe-8110-0c8e9b771654)
+
 
 ## 6. If some problem happens
 1. check the log in webserver.
